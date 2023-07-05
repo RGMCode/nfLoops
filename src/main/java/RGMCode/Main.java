@@ -22,4 +22,22 @@ public class Main {
         }
     }
 
+    /*public static int calcFakultaet(int zahl) {
+        int faku = 1;
+        for (int i = 1; i <= zahl; i++) {
+            faku *= i;
+        }
+        return faku;
+    }*/
+
+    public static int calcFakultaet(int zahl) {
+        int faku = 1;
+        int i = 1;
+        while (i <= zahl) {
+            faku *= i;
+            i++;
+        }
+        return faku;
+    }
+
 }
